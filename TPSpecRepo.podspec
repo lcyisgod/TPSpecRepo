@@ -10,18 +10,18 @@ Pod::Spec.new do |s|
 
   s.name         = "TPSpecRepo"
   s.version      = "0.0.1"
-  s.summary      = "A Test for myself."
+  s.summary      = "A Test."
   s.description  = <<-DESC
-                   No some.
+                   No some for this.
                    DESC
 
-  s.homepage     = "https://github.com/lcyisgod/TPSpecRepo"
+  s.homepage     = "git@github.com:lcyisgod/TPSpecRepo.git"
   s.license      = "MIT"
   s.author             = { "liangchengyou" => "2503978335@qq.com" }
   s.authors            = { "liangchengyou" => "2503978335@qq.com" }
   s.platform     = :ios
-  s.source       = { :git => "https://github.com/lcyisgod/TPSpecRepo", :tag => s.version }
-  s.source_files  = 'TPSpecRepo/*.{h.m}'
+  s.source       = { :git => "git@github.com:lcyisgod/TPSpecRepo.git", :tag => s.version }
+  s.source_files  = 'TPSpecRepo/**/*'
 
   # s.public_header_files = "Classes/**/*.h"
 
