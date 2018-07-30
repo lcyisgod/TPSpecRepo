@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.author       = { "liangchengyou" => "2503978335@qq.com" }
   s.platform     = :ios
   s.source       = { :git => "https://github.com/lcyisgod/TPSpecRepo", :tag => s.version }
-  s.source_files  = "Person/*.{h,m}"
+  s.source_files  = "TPSpecRepo/*.{h,m}"
   s.requires_arc = true
 
 end
